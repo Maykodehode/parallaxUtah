@@ -1,0 +1,106 @@
+/* 
+HEX CODES
+#C17039 - liver dogs/orange
+#A87644 - copper
+#4D98DC - blue gray/darker blue
+#B5BDD0 - cadet blue crayola/grey-ish
+#75AEE6 - french sky blue/lighter blue
+#6B5653 - liver/brown-grey
+*/
+
+body, html{
+  height:100%;
+  margin:0;
+  font-size:18px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#B5BDD0;
+}
+
+/* links */
+a:hover{
+color: #fff;
+}
+
+/* links */
+a{
+  color: #333;
+  font-size: 12px;
+}
+
+/* images-grp */
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+/* image-whole background */
+.pimg1{
+  background-image:url('../img/navajo.jpg');
+  min-height:100%;
+}
+/* image first section */
+.pimg2{
+  background-image:url('../img/horseshoe-bend.jpg');
+  min-height:400px;
+}
+/* image second section */
+.pimg3{
+  background-image:url('../img/arches.jpg');
+  min-height:400px;
+}
+
+/* sections with text */
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+/* light-colored section */
+.section-light{
+  background-color:#B5BDD0;
+  color:#6B5653;
+}
+/* dark-colored section */
+.section-dark{
+  background-color: #6B5653;
+  color:#B5BDD0;
+}
+
+/* all text */
+.ptext{
+  position:absolute;
+  top:35%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+/* text, end */
+.ptext .border{
+  background-color:#6B5653;
+  color:#fff;
+  padding:10px;
+}
+
+/* text on images */
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+/* making it a responsive website */
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+
